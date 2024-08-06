@@ -399,7 +399,7 @@
     <comp lib="0" loc="(340,250)" name="NoConnect"/>
     <comp lib="0" loc="(70,230)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="S2"/>
+      <a name="label" val="S0"/>
     </comp>
     <comp lib="0" loc="(70,250)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -407,7 +407,7 @@
     </comp>
     <comp lib="0" loc="(70,270)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="S0"/>
+      <a name="label" val="S2"/>
     </comp>
     <comp lib="0" loc="(800,1140)" name="Splitter">
       <a name="appear" val="right"/>
@@ -558,22 +558,22 @@
       <a name="facing" val="south"/>
     </comp>
     <comp lib="8" loc="(105,95)" name="Text">
-      <a name="text" val="0b100: A"/>
+      <a name="text" val="0b001: A"/>
     </comp>
-    <comp lib="8" loc="(115,115)" name="Text">
+    <comp lib="8" loc="(111,158)" name="Text">
+      <a name="text" val="0b100: ~A"/>
+    </comp>
+    <comp lib="8" loc="(115,118)" name="Text">
       <a name="text" val="0b010: A+B"/>
     </comp>
-    <comp lib="8" loc="(120,160)" name="Text">
-      <a name="text" val="0b110: A - B"/>
+    <comp lib="8" loc="(116,137)" name="Text">
+      <a name="text" val="0b011: A-B"/>
     </comp>
-    <comp lib="8" loc="(125,140)" name="Text">
-      <a name="text" val="0b001: NOT A"/>
+    <comp lib="8" loc="(117,179)" name="Text">
+      <a name="text" val="0b101: A&amp;B"/>
     </comp>
-    <comp lib="8" loc="(130,75)" name="Text">
+    <comp lib="8" loc="(133,77)" name="Text">
       <a name="text" val="0b000: disabled"/>
-    </comp>
-    <comp lib="8" loc="(135,180)" name="Text">
-      <a name="text" val="0b101: A AND B"/>
     </comp>
     <comp loc="(500,550)" name="INVERT"/>
     <comp loc="(780,1140)" name="AND8b"/>
