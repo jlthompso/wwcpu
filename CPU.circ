@@ -560,19 +560,19 @@
     <comp lib="8" loc="(105,95)" name="Text">
       <a name="text" val="0b001: A"/>
     </comp>
-    <comp lib="8" loc="(111,158)" name="Text">
+    <comp lib="8" loc="(110,155)" name="Text">
       <a name="text" val="0b100: ~A"/>
     </comp>
-    <comp lib="8" loc="(115,118)" name="Text">
+    <comp lib="8" loc="(115,115)" name="Text">
       <a name="text" val="0b010: A+B"/>
     </comp>
-    <comp lib="8" loc="(116,137)" name="Text">
+    <comp lib="8" loc="(115,135)" name="Text">
       <a name="text" val="0b011: A-B"/>
     </comp>
-    <comp lib="8" loc="(117,179)" name="Text">
+    <comp lib="8" loc="(115,175)" name="Text">
       <a name="text" val="0b101: A&amp;B"/>
     </comp>
-    <comp lib="8" loc="(133,77)" name="Text">
+    <comp lib="8" loc="(130,75)" name="Text">
       <a name="text" val="0b000: disabled"/>
     </comp>
     <comp loc="(500,550)" name="INVERT"/>
@@ -1065,7 +1065,7 @@
     <wire from="(190,50)" to="(190,280)"/>
     <wire from="(230,110)" to="(270,110)"/>
     <wire from="(230,120)" to="(290,120)"/>
-    <wire from="(230,130)" to="(350,130)"/>
+    <wire from="(230,130)" to="(300,130)"/>
     <wire from="(230,140)" to="(290,140)"/>
     <wire from="(230,290)" to="(450,290)"/>
     <wire from="(230,300)" to="(430,300)"/>
@@ -1073,7 +1073,7 @@
     <wire from="(230,320)" to="(310,320)"/>
     <wire from="(230,350)" to="(270,350)"/>
     <wire from="(230,360)" to="(290,360)"/>
-    <wire from="(230,370)" to="(350,370)"/>
+    <wire from="(230,370)" to="(300,370)"/>
     <wire from="(230,380)" to="(290,380)"/>
     <wire from="(230,50)" to="(450,50)"/>
     <wire from="(230,60)" to="(430,60)"/>
@@ -1091,6 +1091,10 @@
     <wire from="(290,40)" to="(290,120)"/>
     <wire from="(290,40)" to="(470,40)"/>
     <wire from="(290,430)" to="(350,430)"/>
+    <wire from="(300,110)" to="(300,130)"/>
+    <wire from="(300,110)" to="(350,110)"/>
+    <wire from="(300,350)" to="(300,370)"/>
+    <wire from="(300,350)" to="(350,350)"/>
     <wire from="(300,450)" to="(350,450)"/>
     <wire from="(310,170)" to="(350,170)"/>
     <wire from="(310,320)" to="(310,410)"/>
@@ -1102,13 +1106,13 @@
     <wire from="(320,330)" to="(320,510)"/>
     <wire from="(320,330)" to="(350,330)"/>
     <wire from="(320,510)" to="(550,510)"/>
-    <wire from="(330,110)" to="(350,110)"/>
+    <wire from="(330,130)" to="(350,130)"/>
     <wire from="(330,210)" to="(330,260)"/>
     <wire from="(330,210)" to="(350,210)"/>
     <wire from="(330,260)" to="(510,260)"/>
-    <wire from="(330,310)" to="(330,350)"/>
-    <wire from="(330,350)" to="(350,350)"/>
-    <wire from="(330,70)" to="(330,110)"/>
+    <wire from="(330,310)" to="(330,370)"/>
+    <wire from="(330,370)" to="(350,370)"/>
+    <wire from="(330,70)" to="(330,130)"/>
     <wire from="(340,20)" to="(340,90)"/>
     <wire from="(340,20)" to="(530,20)"/>
     <wire from="(340,390)" to="(340,500)"/>
