@@ -1,0 +1,121 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3621d846-8717-4b69-897a-9ebc73cc447e")
+	(paper "B")
+	(lib_symbols)
+	(sheet
+		(at 50.8 50.8)
+		(size 48.26 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "926e1948-5470-45fa-b0ed-e329e7ffcfda")
+		(property "Sheetname" "alu"
+			(at 50.8 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "alu.kicad_sch"
+			(at 50.8 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "S[0..2]" input
+			(at 50.8 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "103def1e-cca5-4614-89ef-0db6236ec545")
+		)
+		(pin "A[0..7]" input
+			(at 50.8 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4334e4a-881b-42c0-aa99-f5ace03e0276")
+		)
+		(pin "B[0..7]" input
+			(at 50.8 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "570f559a-feec-45e1-8a64-f4d305dd53de")
+		)
+		(pin "O[0..7]" input
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "af9b25f1-de6a-453d-8966-405aa34cc156")
+		)
+		(pin "ZF" input
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2afaeea3-1fc9-4bf7-ab06-c7e35f7ef595")
+		)
+		(pin "CIN" input
+			(at 50.8 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7a99fc51-c474-4f8b-88e5-78b85ff4e473")
+		)
+		(pin "CF" input
+			(at 99.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9d84e799-ff49-4159-91b8-bfaf2fa3bda4")
+		)
+		(instances
+			(project "wwcpu-pcb"
+				(path "/3621d846-8717-4b69-897a-9ebc73cc447e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
